@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Three {
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+        int count = 0, max_n = -1000;
+        for (int num = 1; num != 0; num = scan.nextInt())
+        {
+            if (max_n == num) count++;
+            max_n = Math.max(max_n, num);
+        }
+        System.out.println(count);
+    }
+}
