@@ -1,5 +1,8 @@
 import java.util.Scanner;
 public class Fout {
+    // Вводятся натуральное число n. Выведите на экран лесенку,
+    // состоящую из n ступенек. Каждая i-тая ступенька состоит из
+    // i звёздочек
     public static void main(String[] args)
     {
         Scanner scan = new Scanner(System.in);

@@ -1,5 +1,8 @@
 import java.util.Scanner;
 public class Five {
+
+    // Вводятся натуральное число n. Выведите на экран пирамидку,
+    // состоящую из n слоёв
     public static void main (String[] args)
     {
         Scanner scan = new Scanner(System.in);
