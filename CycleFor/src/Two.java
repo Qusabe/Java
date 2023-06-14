@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Two {
+    // Дано натуральное число. Найдите произведение его цифр
     public static void main(String args[])
     {
         Scanner scan = new Scanner(System.in);

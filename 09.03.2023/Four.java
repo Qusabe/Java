@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Four {
+    // "Високосный год"
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int year = scan.nextInt();
